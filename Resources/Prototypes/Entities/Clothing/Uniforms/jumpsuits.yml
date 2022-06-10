@@ -768,4 +768,71 @@
   - type: Clothing
     sprite: Clothing/Uniforms/Jumpsuit/atmos.rsi
 
+#ironhammer
+- type: entity
+  parent: ClothingUniformBase
+  id: ClothingUniformJumpsuitIronhammerOperative
+  name: ironhammer operative jumpsuit
+  description: Uniform for Ironhammer operatives performing security operations in deep space.
+  components:
+  - type: Sprite
+    sprite: Clothing/Uniforms/Jumpsuit/ihop.rsi
+  - type: Clothing
+    sprite: Clothing/Uniforms/Jumpsuit/ihop.rsi
+
+- type: entity
+  parent: ClothingUniformBase
+  id: ClothingUniformJumpsuitIronhammerSergeant
+  name: ironhammer gunnery sergeant jumpsuit
+  description: Uniform for Ironhammer gunnery sergeants performing security operations in deep space.
+  components:
+  - type: Sprite
+    sprite: Clothing/Uniforms/Jumpsuit/ihs.rsi
+  - type: Clothing
+    sprite: Clothing/Uniforms/Jumpsuit/ihs.rsi
+
+- type: entity
+  parent: ClothingUniformBase
+  id: ClothingUniformJumpsuitIronhammerCommander
+  name: ironhammer operative jumpsuit
+  description: Uniform for Ironhammer commanders performing security operations in deep space.
+  components:
+  - type: Sprite
+    sprite: Clothing/Uniforms/Jumpsuit/ihc.rsi
+  - type: Clothing
+    sprite: Clothing/Uniforms/Jumpsuit/ihc.rsi
+
+#serbian mercenaries
+- type: entity
+  parent: ClothingUniformBase
+  id: ClothingUniformJumpsuitSerbianMercenaryGreen
+  name: green serbian turtleneck
+  description: Combat fatigues for performing tactical operations in deep space, distributed by \"Serbian Arms\".
+  components:
+  - type: Sprite
+    sprite: Clothing/Uniforms/Jumpsuit/serbiansuitgreen.rsi
+  - type: Clothing
+    sprite: Clothing/Uniforms/Jumpsuit/serbiansuitgreen.rsi
+
+- type: entity
+  parent: ClothingUniformBase
+  id: ClothingUniformJumpsuitSerbianMercenaryBrown
+  name: green serbian turtleneck
+  description: Combat fatigues for performing tactical operations in deep space, distributed by \"Serbian Arms\".
+  components:
+  - type: Sprite
+    sprite: Clothing/Uniforms/Jumpsuit/serbiansuitbrown.rsi
+  - type: Clothing
+    sprite: Clothing/Uniforms/Jumpsuit/serbiansuitbrown.rsi
+
+- type: entity
+  parent: ClothingUniformBase
+  id: ClothingUniformJumpsuitSerbianMercenaryBlack
+  name: green serbian turtleneck
+  description: Combat fatigues for performing tactical operations in deep space, distributed by \"Serbian Arms\".
+  components:
+  - type: Sprite
+    sprite: Clothing/Uniforms/Jumpsuit/serbiansuitblack.rsi
+  - type: Clothing
+    sprite: Clothing/Uniforms/Jumpsuit/serbiansuitblack.rsi
 
