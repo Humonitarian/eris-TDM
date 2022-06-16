@@ -1,57 +1,110 @@
-[color=#ff0000]You must be 16 or older to play. Users under 16 will be banned immediately and be unbanned when they are old enough.[/color]
+[color=#a4885c]The[/color] [color=#ffd700]Golden[/color] [color=#a4885c]Rule.[/color] Admins apply these rules at their own discretion, and they may ignore the enforcement of specific rules if it is considered necessary.
 
-[color=#a4885c]The[/color] [color=#ffd700]Golden[/color] [color=#a4885c]Rule.[/color] Admins can disregard any and all of these rules if they deem it in the best interest of the current round, server, and/or community at large. They will of course be held fully accountable for their actions if they exercise this privilege.
+[color=#505cde]Community Rules[/color]
+[color=#6495de]Community rules apply on Discord, OOC channels, repositories and all sites under our control. IC relations are not governed by these rules, but there is one caveat. Blocking on community platforms can be carried over to the game, and vice versa.
 
-[color=#a4885c]1.[/color] Don’t be a dick. We’re all here to have fun. Antagonists have leeway here since ruining the round is kind of their job, but try to keep it interesting if you’re antag.
-    - Be considerate of what other players want. If everyone is dead, don't stall the end of the round to finish your personal projects (such as building a shuttle)
+Each rule has refinements and details available on their bullet points.[/color]
 
-[color=#a4885c]2.[/color] These are english servers. Do not speak other languages in IC or OOC, our staff cannot moderate it and you will be asked to stop.
+[color=#a4885c]0. Do not be an asshole[/color] This is a game, and we all came here to enjoy it. Prolonged conflict and toxic behavior are not permitted. Try to be adequate or at least seem so.
+    - If it was proved that the motivation of the person is to only harm the community, or if player even admits that directly, then the player will be expelled from the community forever.
+    - If you put yourself in opposition to the whole community, then you better leave the server and look for another place to play. Otherwise, we will show you the door by force.
+    - Attempts to harm the community by disrupting the operation of any of its platforms, by doing things like DoS or using harmful exploits will lead to permanent ban.
+    - Raiders with clear goal to harm the community will be permanently banned without minimum bureaucracy involved. We don't negotiate or even communicate with raiders, and if you are a part of raiding group or a community that have the purpose of harming and harassing other servers, you can be banned without right to appeal.
+    - It is also forbidden to organize raids in order to harm another community, even if this happened outside of our platforms. We do not need stupid drama and conflicts with other communities.
 
-[color=#a4885c]3.[/color] These servers are "Low Roleplay", meaning that while you don't need to be perfectly in character, basic roleplaying standards like not using emoji/emoticons or textspeak (:), :D, xD, lol, etc.) in speech, and using real names for characters, are expected to be followed.
+[color=#a4885c]1. Inappropriate Content[/color] Please communicate in a way that doesn't make community members endlessly cringe, and so that we don't get banned from our platforms.
+    - Your speech should not go beyond the scope of socially acceptable humor and memes, and should also be readable. In simpler terms: don't be cancer.
+    - We don't have direct bans on the use of national or racial insults, because we don't care about harmless banter.
+    - However, [color=#ff0000]harassment of community members on ethnic, religious, or racial grounds, discussions about race superiority, direct calls to violence towards certain group based on their race, ethnicity, religion, position or wealth, will lead you to a ban.[/color] Everything from range starting to "people of certain race are not humans" and ending at "murder your local landlord/all cops are pigs" is not welcome here.
+    - Same applied to /pol/ tier content that promote such discussions. Just take it somewhere else.
+    - As a matter of fact, don't openly and aggressively harass anyone here on any grounds.
+    - Politics discussions are permitted as long as they don't break any rules. This is international server, keep it civil towards other people from around the world.
+    - NSFW and malicious content are prohibited. Also prohibited are videos with sound that can damage your hearing (earrape content).
+    - It is forbidden to publish personal information without the permission of the user or voluntary public publication of this information. This is especially true of photographs and information about their place of residence. This rule applies not only to members of our community but everyone, we do not want to be the center of someone’s bullying, and we can be punished for this by the user agreement of the platforms we use.
+    - Don't post content that can create problems with our platforms. For example, violating the Terms of Service Discord, as well as other platforms where we are. Keep in mind, GitHub is extremely sensitive to the use of words such as "retard" and "nigger", and can be banned for it as well as the user and the entire repository. Let's not shoot ourselves in the foot.
+    - It is impossible to determine the NSFW standard, which means to put it in the rules and use it instead of a ruler, we cannot determine the openness of female breasts in art. This means that you need to think for yourself what you are posting, for example you should understand that if a sexual act is completely covered by clothing, it is still a sexual act, and explicit NSFW.
 
-[color=#a4885c]4.[/color] Follow basic common sense--you cannot murder someone because they slipped you on a banana
-    - This isn't a deathmatch, be humane.
-    - What is considered a reasonable reason to escalate conflict is listed below under ESCALATION RULES and is at the discretion of admins.
-    - Declaring a revolution or going on strike is an antagonist only activity. "Cargonia" and other departmental revolutions are prohibited unless admin permission is obtained.
+[color=#a4885c]2. Offtopic and channel rules[/color] For each topic on our platforms a corresponding section or channel has been created. While offtopic is not punished in most channels (although you should listen when admins tells you to take this topic somewhere else), development channels, Github pull requests and other channels have more severe restrictions.
+    - Applications for ban appeals and complaints to the administration should be submitted only in the appropriate forum [color=#4a2b8f](https://forum.cev-eris.com/viewtopic.php?f=6&t=6)[/color]. Spam in the administration’s DMs, begging for your unban in the channels, and other attempts to bypass the form will be suppressed. Attempts to create drama from your ban on all possible platforms will not lead to anything productive.
+    - Spam is not allowed. Advertising for other communities is allowed until it becomes spam.
 
-[color=#a4885c]5.[/color] Erotic Roleplay (ERP) is [color=#ff0000]not allowed under any circumstance[/color].
 
-[color=#a4885c]6.[/color] Harassment of other players for OOC/meta reasons is [color=#ff0000]not allowed[/color].
-	- Annoying somebody in a round for IC/RP reasons is fine. Doing it consistently across multiple rounds for OOC reasons (“I don’t like this 		  player” AKA metagrudging) to the point where it becomes seriously problematic for the other player(s) is [color=#ff0000]not[/color].
+[color=#505cde]Game Rules[/color]
+[color=#6495de]These rules apply only in the game itself and enforced only by the administration of the game server.[/color]
 
-[color=#a4885c]7.[/color] Hate speech, slurs and bigotry are not allowed.
-	- Intentionally seeking to demean others due to their actual or perceived race, sex, gender, orientation or the like is not tolerated.
-	- Words that are closely tied to real life slurs are [color=#ff0000]not allowed[/color].
+[color=#a45c5c]0. ERP[/color] [color=#ff0000] Erotic roleplaying is prohibited on the server. Violators will be punished severely.[/color].
+    - Hugs and kisses are allowed, as long as nothing sexual is going on. Don't try to test the waters there.
 
-[color=#a4885c]8.[/color] Offensive/bad/out-of-character character names and descriptions put you at the mercy of administrators, from receiving brain damage to becoming valid to straight up getting banned on the spot depending on how bad they are. Character names should be something a real person might have for a name.
+[color=#a4885c]1. Random DeathMatch[/color] Intentional murder\isolation\grievous harm without reason. You must have a good reason to kill a teammate. This may be: self-defense, a long-running conflict, the execution of an order (the person who ordered it will be responsible for the murder) or the execution of a sentence.
+    - The violation will always be seen in the context of events that came before it. Usually the responsibility lies with the creator of the situation.
+    - Complete isolation of the player without the ability to get out is equivalent to killing.
+    - The infliction of grievous harm, as a result of which the victim spent a long (half an hour or more) time in the medical bay, is punishable by a term of half the murder in a similar situation.
+    - If you doubt your right to use lethal force, ask the administration. You cannot be punished for the violence that the administrator allowed.
+    - Conflict with an adequate reason, which was played out during 15-20 minutes of the round (minimum), is considered to be a long-term conflict. At the same time, a conflict with an entire department cannot be considered an excuse.
+    - At the same time, an adequately played long-term conflict is not considered if:
+        - Someone just walked into the area.
+        - You do not like how someone dresses.
+        - Someone does not do their job as you would like.
+    - An adequate reason for killing could be:
+        - Someone ran into the arsenal and is actively touching lethal weapons.
+        - Someone has Excelsior armor, during the uprising of Excelsior.
+        - Someone is trying to blow up the whole ship.
+    - Some mechanics, such as sanity, can provide you with reason to assault one person even while not being an antag. However, make sure it will not escalate in lethal conflict with the whole team, as you will be punished for that.
+    - When you have an antag role - you are allowed to kill people as much as you need, provided they are not your allies. But you don't need to be asshole about it, don't murder the whole server on low population, for example. It's totally not fun for others.
 
-[color=#a4885c]9.[/color] Knowingly using exploits, external programs, or other unintended game mechanics to powergame, slow down, or crash the server is [color=#ff0000]not allowed[/color].
+[color=#a4885c]2. Violation of the atmosphere and rules of communication[/color] Your speech should correspond to the role played, and not your usual chat behavior. Ideally, it should match the way the characters in films and books speak. Internet slang, emoticons and text abbreviations are prohibited, your characters speak in a voice.
+   - Do not break the immersion, do not act out something that goes against the background and lore.
+   - When using flavor text (character descriptions), it is forbidden to write a story, character, etc. Only appearance.
+   - Do not use names of celebrities (Adolf Hitler) and too popular characters (Luke Skywalker). You may play some not very popular heroes of books and films, but it is best to ask the administration in advance. Also, your name should not disturb the atmosphere and should not be too meme (Chad Wojak).
+   - Communicate correctly. It is difficult to talk about any role atmosphere in general, when adult characters talk like sixth graders at a break. Try to make as few mistakes as possible, and speak a language that is pleasant to read. It does not matter whether the server language is native to you or not, equal demands are made on everyone.
 
-[color=#a4885c]10.[/color] Multi-keying/Alts on the same server is [color=#ff0000]not allowed[/color].
-	- Admins may ask players in possession of multiple alt accounts to choose one to play on and ban the other accounts.
-	- If you are caught knowingly using alt accounts you may have your main account banned as well.
+[color=#a4885c]3. IC in OOC and metagaming[/color] Our server is an RP server, and despite the presence of some concessions in comparison with other servers, the minimum requirements for metagaming are still present.
+   - Discussion or mention of the events of the current round in the OOC channel is punishable. Please keep the intrigue for other players. This also applies to conferences, forums and other ways of communicating and disseminating information.
+   - The use of information about the events of the round received by OOC methods is punishable.
+   - It is forbidden to use off-game means of communication to coordinate actions in the game. This violates the metagaming rule and is severely punished.
+   - The capabilities of your character are determined by his characteristics, and you can TRY to do things like performing surgery, unlike other servers. An exception is if you take away someone’s work, as described in rule 4.
 
-[color=#a4885c]11.[/color] Using information gained outside the game to your advantage is [color=#ff0000]not allowed[/color]. IC and OOC are to be kept separate at all times.
-	- Metacommunication, or communicating with other players via out of game methods (such as Discord) to gain an unfair advantage is also strictly [color=#ff0000]prohibited[/color].
-    - This is a roleplaying game, thus IC conflicts must only be resolved with IC (Local) chat, utilizing voice chat, calling across the room, OOC, or other out-of-game communication methods to coordinate in-game actions is forbidden and will result in a [color=#ff0000]appeal-only permanent ban[/color] in most cases.
-	- Preemptive spacing or destruction of high-risk items also falls under this rule.
+[color=#a4885c]4. Perform basic job duties[/color] The engine should be started in an acceptable time frame, people should not die in the medical lobby, while doctors drink tea, and the like. Remember that the life of the entire team depends on the work of key jobs. Command jobs and AIs should not exit the game after the start of the round.
+   - It's okay if you have a serious reason why you cannot do your job. This is a game about chaos, and sooner or later something will go wrong. But at the beginning of the round you need to fulfill your duties.
+   - Despite the fact that rule 3 allows you to do everything your character is capable of according to characteristics, if you interfere in the work of a living and active department, and do their work for them, you can be punished. Instead of breaking into the chemistry and making the medicine yourself, pay the chemist who sits there.
 
-RULES FOR SECURITY
-[color=#a4885c]12.[/color] Security is expected to use non-lethal measures unless faced with lethal force or a situation where non-lethal measures aren't possible. Ideally, do not enter combat mode, as security stun batons do not deal damage, but still stun, when outside of combat mode.
-    - If you still manage to kill someone as security, get them cloned immediately, and make sure their stuff is returned.
+[color=#a4885c]5. Using multiple accounts[/color] This greatly complicates the work of the administration and is punished quite seriously. If you want to switch to another account, coordinate this with the server administration.
+   - The server administration has the right to use several accounts for its own purposes.
 
-[color=#a4885c]13.[/color] Prisoners should not be given sentences longer than 10 minutes. Certain extreme exceptions like bombers and assassins may warrant permabrigging, or [color=#ff0000]in the very worst cases[/color], execution.
-    - Note that employment at a hostile corporation (i.e. traitor status) alone [color=#ff0000]does not[/color] qualify someone for perma or execution.
 
-ESCALATION RULES
+[color=#505cde]Administration Rules[/color]
+[color=#6495de]These can serve as the basis for complaints, or for internal proceedings.[/color]
 
-Self-defense is always allowed, to the extent of saving your own life. Preemptively attacking/maiming someone or hitting someone while they are already incapacitated is not considered self-defense.
+[color=#a4885c]0. Follow your own rules[/color] The administration should not only comply with its own rules, but also be an example to follow.
+   - If the administrator, or a permanent member of the development (a person with the role of Staff Developer) violates the rules, the heads of the project, servers and the secretary can get together and give this person a warning. In case of accumulation of 2 or 3 of such warnings, the person will be removed from the server command, and may be additionally banned. In addition to the warning, a ban is not issued, an active member of the server team cannot be banned so that he has the ability to fulfill his responsibilities.
 
-Minor conflicts and scuffles are allowed, given that the wronged party has reasonable justification. If you are wronged, you are expected to handle the conflict non-lethally whenever possible, escalating in severity as the conflict continues.
-As the defending party the rate of escalation increases with you, up to and including violence, while the instigator is always able to respond in kind.
+[color=#a4885c]1. Be an adequate adult[/color] This is perhaps the most important. You should never forget that this is just a game, people come here to have fun, and you want to help them in this.
+   - Do not make yourself God and lord over this game, communicate normally with the community. In general, be calm, solve problems with a cool head and ass.
+   - Talk to trouble makers. Never give out a ban in silence. If the player has not left the server and you are able to talk with them, then you are obligated to talk with them. Listen to his opinion, think, interrogate other players, issue a verdict. And then the most important thing: make sure that the player understands it. This will save a lot of complaints and questions in the future.
+   - We are not call center operators on salaries. It is obvious. Nobody forbids you to swear or tell special children what they deserve. But this is a matter of general community atmosphere. If you cover the players with obscenities, they will see enemies in the administration, actively gather in groups against the administration, weave intrigues. We should not allow this, and it is worth starting with ourselves.
+   - Have a sense of humor and don’t burn. In this game absolutely crazy things can happen, players can consistently insult your kin to the seventh generation, and the build can break in all places. The ability to neigh in time will save you and others, and a cold ass will allow you to endure fair bans in any situation.
 
-If a conflict leads to violence and either participant is incapacitated, the standing participant is expected to make an effort to treat the other, unless they have reason to believe the other was an antagonist.
-Once treated the conflict is over; any new conflict with either individual must escalate once again. If you get into a conflict again with that individual, they may be removed permanently from the round.
+[color=#a4885c]2. Do not harm your own server[/color] Do not shit inside where you live. This would seem quite obvious, but it is sometimes easy to forget in a fit of anger.
+   - Do not be an intriguer. Do not use admin rights to pit groups of players, administrators, against each other, and do not try to split the administration into separate groups, do not play dirty politics. If there are problems in the community, they need to be voiced and resolved, and not thrown at each other to such an extent that problems will not be resolvable.
+   - Do not harm the server and the community in order to prove something. In the end, if you really do not like what is happening, you can just calmly leave. No problem is worth the split or death of the community.
+   - If you are personally involved in a violation, it concerns your friends, or your ass just burns - pass the problem to another. Failure to do this can lead to huge problems with the community, and even to the circus and drama.
+   - Do not expose the community badly in the eyes of others. Do not conflict with other communities so that this can create problems for the entire server, or even involve a full-blown conflict with someone.
 
-Not all conflicts should be solved in character. If a non-antagonist conflict has escalated to the point of interfering with the round in a detrimental way, Admin Help is preferred as a solution.
-If you're unsure whether escalation is justified in a given conflict, don't be afraid to use Admin Help and ask for clarification.
+[color=#a4885c]3. We are a server with the minimum possible admin intervention[/color] This is one of the basics of the server. We understand that the rules are necessary to maintain an adequate community life, however we do not directly intervene in the events of the round.
+   - If it is reasonable, players should be banned for their violations at the end of the round, having the opportunity to play their role in the round. Interrupting a chain of murders of an outright attacker by a ban, however, is possible and necessary.
+   - We do not revive the players even if they were killed by a banned griefer. However, we can provide a reduction in respawn time for the victim. To do it or not is strictly on the conscience of the administrator.
+   - Reducing respawn time is the most organic way to return a player to the game, and if the situation is right, this can be done in large quantities. But then again, all this is at the discretion of the administration.
+   - Helping players who fall victim to bugs is one of the duties of the administration. The build is not stable even in its best times, in case something broke the rule of non-intervention should be forgotten.
+   - Events, or other ways to diversify the rounds should be coordinated with the heads of the servers.
+
+[color=#a4885c]4. N.A.P.[/color]
+   - Admins have a prerogative to deal with in-game problems, and developers should not interfere with bans, notes and appeals, or try to vouch someone out of trouble.
+   - Development process is regulated by Maintainers in terms of quality, and by Project Leader/Head Dev in terms of balance, direction and lore. Admins don't have any privilege in this process.
+   - It is, however, guaranteed that admins will communicate with Head Dev before applying any sanctions to developers or contributors. It's not for covering up their violations, but to allow Dev team to adapt, civilly resolve a problem, and ensure that damage to development itself is minimal.
+   - As for player feedback and admin tools, it's also expected for admins to be the main source of information, and while current dev priorities are established by Head Dev, development team will listen to admins concern.
+
+
+[color=#a4885c]Other tips[/color] Not the rules as such, these are recommendations for directing the administration in the right direction.
+   - Not everything can be brought to the public. If the administrator took off the whore, got drunk and let her administer the server, it’s definitely not worth disclosing such details of her personal life.
+   - Still, playerbase should be informed on the reasoning of our decisions or actions, both in administration and development.
+   - Ask for help if necessary. If you are in doubt about the solution, ask other administrators. If there is no one to call for help, give a kick to your head for the lack of administration.
