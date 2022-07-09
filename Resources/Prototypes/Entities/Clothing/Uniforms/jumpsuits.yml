@@ -768,4 +768,57 @@
   - type: Clothing
     sprite: Clothing/Uniforms/Jumpsuit/atmos.rsi
 
+- type: entity
+  parent: ClothingUniformBase
+  id: ClothingUniformSerbian
+  name: serbian jumpsuit
+  description: amogus.
+  components:
+    - type: Sprite
+      sprite: Clothing/Uniforms/Jumpsuit/serbian.rsi
+    - type: Clothing
+      sprite: Clothing/Uniforms/Jumpsuit/serbian.rsi
 
+- type: entity
+  parent: ClothingUniformBase
+  id: ClothingUniformSerbianGrey
+  name: serbian black jumpsuit
+  description: amogus.
+  components:
+    - type: Sprite
+      sprite: Clothing/Uniforms/Jumpsuit/serbian_black.rsi
+    - type: Clothing
+      sprite: Clothing/Uniforms/Jumpsuit/serbian_black.rsi
+
+- type: entity
+  parent: ClothingUniformBase
+  id: ClothingUniformSerbianBrown
+  name: serbian brown jumpsuit
+  description: amogus.
+  components:
+    - type: Sprite
+      sprite: Clothing/Uniforms/Jumpsuit/serbian_brown.rsi
+    - type: Clothing
+      sprite: Clothing/Uniforms/Jumpsuit/serbian_brown.rsi
+
+- type: entity
+  parent: ClothingUniformBase
+  id: ClothingUniformIronhammer
+  name: Ironhammer jumpsuit
+  description: amogus.
+  components:
+    - type: Sprite
+      sprite: Clothing/Uniforms/Jumpsuit/ironhammer.rsi
+    - type: Clothing
+      sprite: Clothing/Uniforms/Jumpsuit/ironhammer.rsi
+
+- type: entity
+  parent: ClothingUniformBase
+  id: ClothingUniformIronhammerTurtleneck
+  name: Ironhammer turtleneck
+  description: amogus.
+  components:
+    - type: Sprite
+      sprite: Clothing/Uniforms/Jumpsuit/ironhammer_turtleneck.rsi
+    - type: Clothing
+      sprite: Clothing/Uniforms/Jumpsuit/ironhammer_turtleneck.rsi

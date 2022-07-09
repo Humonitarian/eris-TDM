@@ -128,7 +128,7 @@
   - type: Tag
     tags:
     - HidesHair
-    
+
 - type: entity
   parent: ClothingHeadBase
   id: ClothingHeadHelmetSpaceNinja
@@ -143,7 +143,7 @@
   - type: Tag
     tags:
     - HidesHair
-    
+
 - type: entity
   parent: ClothingHeadEVAHelmetBase
   id: ClothingHeadHelmetSyndicate
@@ -290,3 +290,165 @@
         Slash: 0.95
         Heat: 0.90
         Radiation: 0.75
+
+- type: entity
+  parent: ClothingHeadBase
+  id: ClothingHeadHelmetVisorIronhammer
+  name: ironhammer visor helmet
+  description: amogus.
+  components:
+  - type: Sprite
+    sprite: Clothing/Head/Helmets/ironhammer_visor.rsi
+  - type: Clothing
+    sprite: Clothing/Head/Helmets/ironhammer_visor.rsi
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.8
+        Slash: 0.8
+        Piercing: 0.9
+        Heat: 0.8
+
+- type: entity
+  parent: ClothingHeadBase
+  id: ClothingHeadHelmetBulletproof
+  name: bulletproof helmet
+  description: amogus.
+  components:
+  - type: Sprite
+    sprite: Clothing/Head/Helmets/bulletproof.rsi
+  - type: Clothing
+    sprite: Clothing/Head/Helmets/bulletproof.rsi
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.8
+        Slash: 0.8
+        Piercing: 0.9
+        Heat: 0.8
+
+- type: entity
+  parent: ClothingHeadBase
+  id: ClothingHeadHelmetBulletproofSerbian
+  name: bulletproof serbian helmet
+  description: amogus.
+  components:
+  - type: Sprite
+    sprite: Clothing/Head/Helmets/bulletproof_serbian.rsi
+  - type: Clothing
+    sprite: Clothing/Head/Helmets/bulletproof_serbian.rsi
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.8
+        Slash: 0.8
+        Piercing: 0.9
+        Heat: 0.8
+
+- type: entity
+  parent: ClothingHeadBase
+  id: ClothingHeadHelmetBulletproofSerbianBlack
+  name: bulletproof black serbian helmet
+  description: amogus.
+  components:
+  - type: Sprite
+    sprite: Clothing/Head/Helmets/bulletproof_serbian_black.rsi
+  - type: Clothing
+    sprite: Clothing/Head/Helmets/bulletproof_serbian_black.rsi
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.8
+        Slash: 0.8
+        Piercing: 0.9
+        Heat: 0.8
+
+- type: entity
+  parent: ClothingHeadBase
+  id: ClothingHeadHelmetBulletproofSerbianBrown
+  name: bulletproof brown serbian helmet
+  description: amogus.
+  components:
+  - type: Sprite
+    sprite: Clothing/Head/Helmets/bulletproof_serbian_brown.rsi
+  - type: Clothing
+    sprite: Clothing/Head/Helmets/bulletproof_serbian_brown.rsi
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.8
+        Slash: 0.8
+        Piercing: 0.9
+        Heat: 0.8
+
+- type: entity
+  parent: ClothingHeadBase
+  id: ClothingHeadHelmetIronhammerFullbody
+  name: ironhammer fullbody helmet
+  description: amogus.
+  components:
+  - type: Sprite
+    sprite: Clothing/Head/Helmets/ironhammer_fullbody.rsi
+  - type: Clothing
+    sprite: Clothing/Head/Helmets/ironhammer_fullbody.rsi
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.8
+        Slash: 0.8
+        Piercing: 0.9
+        Heat: 0.8
+
+- type: entity
+  parent: ClothingHeadBase
+  id: ClothingHeadHelmetHelmetIronhammer
+  name: ironhammer helmet
+  description: amogus.
+  components:
+  - type: Sprite
+    sprite: Clothing/Head/Helmets/ironhammer_helmet.rsi
+  - type: Clothing
+    sprite: Clothing/Head/Helmets/ironhammer_helmet.rsi
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.8
+        Slash: 0.8
+        Piercing: 0.9
+        Heat: 0.8
+
+- type: entity
+  parent: ClothingHeadBase
+  id: ClothingHeadHelmetSerbianHelmet
+  name: serbian helmet
+  description: amogus.
+  components:
+  - type: Sprite
+    sprite: Clothing/Head/Helmets/serbian_helmet.rsi
+  - type: Clothing
+    sprite: Clothing/Head/Helmets/serbian_helmet.rsi
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.8
+        Slash: 0.8
+        Piercing: 0.9
+        Heat: 0.8
+
+- type: entity
+  parent: ClothingHeadBase
+  id: ClothingHeadHelmetSerbianFullbodyHelmet
+  name: serbian fullbody helmet
+  description: amogus.
+  components:
+  - type: Sprite
+    sprite: Clothing/Head/Helmets/serbian_helmet_full.rsi
+  - type: Clothing
+    sprite: Clothing/Head/Helmets/serbian_helmet_full.rsi
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.8
+        Slash: 0.8
+        Piercing: 0.9
+        Heat: 0.8
