@@ -207,7 +207,7 @@
   - type: IngestionBlocker
   - type: PowerCellSlot
     cellSlot:
-      startingItem: PowerCellSmallHigh
+      startingItem: PowerCellMedium
   - type: TemperatureProtection
     coefficient: 0.01
   - type: Armor

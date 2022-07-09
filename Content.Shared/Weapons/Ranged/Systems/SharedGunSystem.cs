@@ -8,10 +8,12 @@ using Content.Shared.Examine;
 using Content.Shared.Hands.Components;
 using Content.Shared.Interaction.Events;
 using Content.Shared.Popups;
+using Content.Shared.Projectiles;
 using Content.Shared.Throwing;
 using Content.Shared.Verbs;
 using Content.Shared.Weapons.Ranged.Components;
 using Content.Shared.Weapons.Ranged.Events;
+using Content.Shared.Tag;
 using Robust.Shared.Audio;
 using Robust.Shared.Containers;
 using Robust.Shared.GameStates;
@@ -42,6 +44,8 @@ public abstract partial class SharedGunSystem : EntitySystem
     [Dependency] protected readonly SharedPhysicsSystem Physics = default!;
     [Dependency] protected readonly SharedPopupSystem PopupSystem = default!;
     [Dependency] protected readonly ThrowingSystem ThrowingSystem = default!;
+    [Dependency] protected readonly TagSystem TagSystem = default!;
+    [Dependency] protected readonly SharedProjectileSystem Projectiles = default!;
 
     protected ISawmill Sawmill = default!;
 
@@ -86,6 +90,9 @@ public abstract partial class SharedGunSystem : EntitySystem
 
     private void OnGunMeleeAttempt(EntityUid uid, GunComponent component, ref MeleeAttackAttemptEvent args)
     {
+        if (TagSystem.HasTag(args.User, "GunsDisabled"))
+            return;
+
         args.Cancelled = true;
     }
 
@@ -120,6 +127,10 @@ public abstract partial class SharedGunSystem : EntitySystem
     {
         args.State = new GunComponentState
         {
+            FireRate = component.FireRate,
+            CurrentAngle = component.CurrentAngle,
+            MinAngle = component.MinAngle,
+            MaxAngle = component.MaxAngle,
             NextFire = component.NextFire,
             ShotCounter = component.ShotCounter,
             SelectiveFire = component.SelectedMode,
@@ -132,13 +143,17 @@ public abstract partial class SharedGunSystem : EntitySystem
         if (args.Current is not GunComponentState state) return;
 
         Sawmill.Debug($"Handle state: setting shot count from {component.ShotCounter} to {state.ShotCounter}");
+        component.FireRate = state.FireRate;
+        component.CurrentAngle = state.CurrentAngle;
+        component.MinAngle = state.MinAngle;
+        component.MaxAngle = state.MaxAngle;
         component.NextFire = state.NextFire;
         component.ShotCounter = state.ShotCounter;
         component.SelectedMode = state.SelectiveFire;
         component.AvailableModes = state.AvailableSelectiveFire;
     }
 
-    protected GunComponent? GetGun(EntityUid entity)
+    public GunComponent? GetGun(EntityUid entity)
     {
         if (!EntityManager.TryGetComponent(entity, out SharedHandsComponent? hands) ||
             hands.ActiveHandEntity is not { } held)
@@ -172,6 +187,12 @@ public abstract partial class SharedGunSystem : EntitySystem
         var toCoordinates = gun.ShootCoordinates;
 
         if (toCoordinates == null) return;
+
+        if (TagSystem.HasTag(user, "GunsDisabled"))
+        {
+            Popup(Loc.GetString("gun-disabled"), user, user);
+            return;
+        }
 
         var curTime = Timing.CurTime;
 
@@ -319,7 +340,7 @@ public abstract partial class SharedGunSystem : EntitySystem
         }
 
         if (sound != null && playSound)
-            SoundSystem.Play(Filter.Pvs(entity, entityManager: EntityManager), sound, coordinates, AudioHelpers.WithVariation(0.05f).WithVolume(-1f));
+            SoundSystem.Play(sound, Filter.Pvs(entity, entityManager: EntityManager), coordinates, AudioHelpers.WithVariation(0.05f).WithVolume(-1f));
     }
 
     protected void MuzzleFlash(EntityUid gun, AmmoComponent component, EntityUid? user = null)
@@ -358,7 +379,11 @@ public abstract partial class SharedGunSystem : EntitySystem
     [Serializable, NetSerializable]
     protected sealed class GunComponentState : ComponentState
     {
+        public Angle CurrentAngle;
+        public Angle MinAngle;
+        public Angle MaxAngle;
         public TimeSpan NextFire;
+        public float FireRate;
         public int ShotCounter;
         public SelectiveFire SelectiveFire;
         public SelectiveFire AvailableSelectiveFire;
@@ -372,11 +397,11 @@ public abstract partial class SharedGunSystem : EntitySystem
     {
         public List<(EntityCoordinates coordinates, Angle angle, SpriteSpecifier Sprite, float Distance)> Sprites = new();
     }
+}
 
-    public enum EffectLayers : byte
-    {
-        Unshaded,
-    }
+public enum EffectLayers : byte
+{
+    Unshaded,
 }
 
 [Serializable, NetSerializable]

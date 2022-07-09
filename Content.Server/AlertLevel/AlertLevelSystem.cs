@@ -1,5 +1,6 @@
 using System.Linq;
 using Content.Server.Chat;
+using Content.Server.Chat.Systems;
 using Content.Server.Station.Systems;
 using Robust.Shared.Audio;
 using Robust.Shared.Player;
@@ -172,7 +173,8 @@ public sealed class AlertLevelSystem : EntitySystem
         {
             if (detail.Sound != null)
             {
-                SoundSystem.Play(Filter.Broadcast(), detail.Sound.GetSound());
+                var filter = _stationSystem.GetInStation(station);
+                SoundSystem.Play(detail.Sound.GetSound(), filter, detail.Sound.Params);
             }
             else
             {
@@ -182,7 +184,6 @@ public sealed class AlertLevelSystem : EntitySystem
 
         if (announce)
         {
-
             _chatSystem.DispatchStationAnnouncement(station, announcementFull, playDefaultSound: playDefault,
                 colorOverride: detail.Color, sender: stationName);
         }
