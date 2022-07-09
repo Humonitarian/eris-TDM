@@ -207,7 +207,7 @@ namespace Content.Server.Chat.Managers
 
         #region Utility
 
-        public void ChatMessageToOne(ChatChannel channel, string message, string messageWrap, EntityUid source, bool hideChat, INetChannel client)
+        public void ChatMessageToOne(ChatChannel channel, string message, string messageWrap, EntityUid source, bool hideChat, INetChannel client, Color? colorOverride = null)
         {
             var msg = new MsgChatMessage();
             msg.Channel = channel;
@@ -215,10 +215,14 @@ namespace Content.Server.Chat.Managers
             msg.MessageWrap = messageWrap;
             msg.SenderEntity = source;
             msg.HideChat = hideChat;
+            if (colorOverride != null)
+            {
+                msg.MessageColorOverride = colorOverride.Value;
+            }
             _netManager.ServerSendMessage(msg, client);
         }
 
-        public void ChatMessageToMany(ChatChannel channel, string message, string messageWrap, EntityUid source, bool hideChat, List<INetChannel> clients)
+        public void ChatMessageToMany(ChatChannel channel, string message, string messageWrap, EntityUid source, bool hideChat, List<INetChannel> clients, Color? colorOverride = null)
         {
             var msg = new MsgChatMessage();
             msg.Channel = channel;
@@ -226,6 +230,10 @@ namespace Content.Server.Chat.Managers
             msg.MessageWrap = messageWrap;
             msg.SenderEntity = source;
             msg.HideChat = hideChat;
+            if (colorOverride != null)
+            {
+                msg.MessageColorOverride = colorOverride.Value;
+            }
             _netManager.ServerSendToMany(msg, clients);
         }
 
@@ -240,7 +248,7 @@ namespace Content.Server.Chat.Managers
                 clients.Add(recipient.ConnectedClient);
             }
 
-            ChatMessageToMany(channel, message, messageWrap, source, hideChat, clients);
+            ChatMessageToMany(channel, message, messageWrap, source, hideChat, clients, colorOverride);
         }
 
         public void ChatMessageToAll(ChatChannel channel, string message, string messageWrap, Color? colorOverride = null)
