@@ -480,3 +480,25 @@
   - type: Clothing
     sprite: Clothing/Belt/suspenders.rsi
     quickEquip: true
+
+- type: entity
+  parent: ClothingBeltStorageBase
+  id: ClothingBeltTactical
+  name: tactical belt
+  description: amogus.
+  components:
+  - type: Sprite
+    sprite: Clothing/Belt/tactical.rsi
+  - type: Clothing
+    sprite: Clothing/Belt/tactical.rsi
+
+- type: entity
+  parent: ClothingBeltStorageBase
+  id: ClothingBeltTacticalIronhammer
+  name: ironhammer tactical belt
+  description: amogus.
+  components:
+  - type: Sprite
+    sprite: Clothing/Belt/tactical_ironhammer.rsi
+  - type: Clothing
+    sprite: Clothing/Belt/tactical_ironhammer.rsi

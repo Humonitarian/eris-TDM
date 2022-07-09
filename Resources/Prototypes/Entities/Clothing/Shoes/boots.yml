@@ -52,3 +52,14 @@
     sprite: Clothing/Shoes/Boots/jackboots.rsi
   - type: Clothing
     sprite: Clothing/Shoes/Boots/jackboots.rsi
+
+- type: entity
+  parent: ClothingShoesBase
+  id: ClothingShoesBootsIronhammerJackboots
+  name: ironhammer jackboots
+  description: amogus
+  components:
+  - type: Sprite
+    sprite: Clothing/Shoes/Boots/ironhammer_jackboots.rsi
+  - type: Clothing
+    sprite: Clothing/Shoes/Boots/ironhammer_jackboots.rsi
