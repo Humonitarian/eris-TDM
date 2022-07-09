@@ -80,10 +80,12 @@
     containers:
       gun_magazine: !type:ContainerSlot
       gun_chamber: !type:ContainerSlot
-  - type: MagazineVisuals
-    magState: mag
-    steps: 1
-    zeroVisible: true
+  - type: Appearance
+    visuals:
+    - type: MagVisualizer
+      magState: mag
+      steps: 1
+      zeroVisible: true
 
 - type: entity
   name: Z8 Bulldog
