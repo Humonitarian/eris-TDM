@@ -1,0 +1,18 @@
+- type: gameMap
+  id: eristdm
+  mapName: 'ErisTDM'
+  mapPath: /Maps/eris.yml
+  minPlayers: 0
+  maxPlayers: 666
+  stations:
+    Eris:
+      mapNameTemplate: '{0} Eris-TDM {1}'
+      nameGenerator:
+        !type:NanotrasenNameGenerator
+        prefixCreator: '666'
+      overflowJobs:
+        - BlueTeam
+        - RedTeam
+      availableJobs:
+        BlueTeam: [ -1, -1 ]
+        RedTeam: [ -1, -1 ]

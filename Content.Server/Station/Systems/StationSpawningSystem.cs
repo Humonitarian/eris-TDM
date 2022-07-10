@@ -1,4 +1,4 @@
-﻿using Content.Server.Access.Systems;
+using Content.Server.Access.Systems;
 using Content.Server.CharacterAppearance.Systems;
 using Content.Server.DetailExaminable;
 using Content.Server.Hands.Components;
@@ -198,7 +198,7 @@ public sealed class StationSpawningSystem : EntitySystem
 /// This event is designed to use ordered handling. You probably want SpawnPointSystem to be the last handler.
 /// </summary>
 [PublicAPI]
-public sealed class PlayerSpawningEvent : EntityEventArgs
+public sealed class PlayerSpawningEvent : HandledEntityEventArgs
 {
     /// <summary>
     /// The entity spawned, if any. You should set this if you succeed at spawning the character, and leave it alone if it's not null.

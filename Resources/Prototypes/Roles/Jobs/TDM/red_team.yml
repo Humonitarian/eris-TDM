@@ -1,0 +1,35 @@
+- type: job
+  id: RedTeam
+  name: "red team"
+  startingGear: RedTeamGear
+  departments:
+  - Civilian
+  icon: "SecurityOfficer"
+  supervisors: "only the red team"
+
+- type: startingGear
+  id: RedTeamGear
+  inhand:
+    left hand: WeaponRifleKrinkov
+  equipment:
+    head: ClothingHeadHelmetBulletproofSerbian
+    jumpsuit: ClothingUniformSerbian
+    outerClothing: ClothingOuterArmorPlatecarrierFullbody
+    gloves: ClothingHandsGlovesCombat
+    belt: ClothingBeltTacticalFilledRedTeamTDM
+    shoes: ClothingShoesBootsJack
+    pocket1: FlashlightSeclite
+
+- type: entity
+  id: ClothingBeltTacticalFilledRedTeamTDM
+  parent: ClothingBeltTactical
+  suffix: Filled
+  components:
+  - type: StorageFill
+    contents:
+      - id: MagazineLightRifle
+      - id: MagazineLightRifle
+      - id: MagazineLightRifle
+      - id: MagazineLightRifle
+      - id: MagazineLightRifle
+      - id: MagazineLightRifle
