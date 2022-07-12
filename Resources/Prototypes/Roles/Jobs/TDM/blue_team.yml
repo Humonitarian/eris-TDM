@@ -1,0 +1,35 @@
+- type: job
+  id: BlueTeam
+  name: "blue team"
+  startingGear: BlueTeamGear
+  departments:
+  - Civilian
+  icon: "Nanotrasen"
+  supervisors: "only the blue team"
+
+- type: startingGear
+  id: BlueTeamGear
+  inhand:
+    left hand: WeaponRifleSol
+  equipment:
+    head: ClothingHeadHelmetHelmetIronhammer
+    jumpsuit: ClothingUniformIronhammer
+    outerClothing: ClothingOuterArmorBulletproofIronhammer 
+    gloves: ClothingHandsGlovesCombat
+    belt: ClothingBeltTacticalFilledBlueTeamTDM
+    shoes: ClothingShoesBootsJack
+    pocket1: FlashlightSeclite
+
+- type: entity
+  id: ClothingBeltTacticalFilledBlueTeamTDM
+  parent: ClothingBeltTactical
+  suffix: Filled
+  components:
+  - type: StorageFill
+    contents:
+      - id: MagazineRifle
+      - id: MagazineRifle
+      - id: MagazineRifle
+      - id: MagazineRifle
+      - id: MagazineRifle
+      - id: MagazineRifle

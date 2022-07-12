@@ -1,4 +1,4 @@
-﻿using System.Linq;
+using System.Linq;
 using Content.Server.GameTicking;
 using Content.Server.Spawners.Components;
 using Content.Server.Station.Systems;
@@ -20,6 +20,9 @@ public sealed class SpawnPointSystem : EntitySystem
 
     private void OnSpawnPlayer(PlayerSpawningEvent args)
     {
+        // Check handled by other event handler
+        if (args.Handled) return;
+
         // TODO: Cache all this if it ends up important.
         var points = EntityQuery<SpawnPointComponent>().ToList();
         _random.Shuffle(points);

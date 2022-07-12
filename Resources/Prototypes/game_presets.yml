@@ -103,3 +103,13 @@
   showInVote: false
   rules:
     - Pirates
+
+- type: gamePreset
+  id: TeamDeathMatch
+  alias:
+    - teamdeathmatch
+  name: team-death-match-title
+  description: team-death-match-description
+  showInVote: false
+  rules:
+    - TeamDeathMatch

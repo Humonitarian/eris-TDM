@@ -1,0 +1,23 @@
+- type: entity
+  id: SpawnPointTDMBlueTeam
+  parent: SpawnPointJobBase
+  name: BlueTeam TDM
+  components:
+  - type: SpawnPoint
+    job_id: BlueTeam
+  - type: Sprite
+    layers:
+      - state: green
+      - state: ertsecurity
+   
+- type: entity
+  id: SpawnPointTDMRedTeam
+  parent: SpawnPointJobBase
+  name: RedTeam TDM
+  components:
+  - type: SpawnPoint
+    job_id: RedTeam
+  - type: Sprite
+    layers:
+      - state: green
+      - state: security_officer
